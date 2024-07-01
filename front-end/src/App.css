@@ -1,0 +1,62 @@
+/*Palete*/
+/*
+#161a1e
+#e58e27
+#9a9a9a
+#fbfbfb
+
+
+/* MAIN E BODY*/
+canvas {
+  z-index: -1;
+}
+
+body {
+  background-color: #4e3f3b !important;
+  font-family: "Inter", sans-serif;
+}
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.MainContent {
+  padding-block: 20px;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    350deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(54, 31, 26, 1) 0%,
+    rgba(64, 41, 32, 1) 0%,
+    rgba(54, 31, 26, 1) 18%,
+    rgba(22, 26, 30, 1) 54%
+  );
+  margin: 2%;
+  border-radius: 35px;
+}
+
+.logo-header {
+  background-color: #161a1e;
+}
+
+/* MAIN E BODY*/
+
+#buttonParticles {
+  position: fixed;
+  bottom: 0;
+  right: 20px;
+  z-index: 10;
+  bottom: 20px;
+}
+
+.generalAnchor {
+  text-decoration: none;
+  color: #9a9a9a;
+}
+
+.generalAnchor:hover {
+  color: #e58e27;
+  transition: 0.3s;
+}
+
+/*_______________________________________________*/

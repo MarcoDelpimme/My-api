@@ -1,0 +1,78 @@
+/* DASHBOARD USER*/
+.user-detail {
+  background: rgb(37, 37, 40);
+  background: linear-gradient(34deg, rgba(37, 37, 40, 1) 12%, rgba(54, 45, 37, 1) 74%);
+  border-radius: 30px;
+}
+
+/* DASHBOARD USER*/
+
+/* DASHBOARD ADMIN*/
+.card-button1 {
+  background-color: #e58e27;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+
+  font-weight: bold;
+  border-radius: 35px;
+
+  text-align: center;
+}
+
+.card-button1:hover {
+  background-color: #ffba67fa;
+  transition: 0.3s;
+  text-align: center;
+}
+/* DASHBOARD ADMIN*/
+/* DASHBOARD USER */
+.user-detail {
+  background: rgb(37, 37, 40);
+  background: linear-gradient(34deg, rgba(37, 37, 40, 1) 12%, rgba(54, 45, 37, 1) 74%);
+  border-radius: 30px;
+}
+
+/* Modal Styles */
+.modal-header {
+  background-color: #161a1e;
+  color: #fbfbfb;
+}
+
+.modal-body {
+  background-color: #5656563f;
+  color: #161a1e;
+}
+
+.modal-footer {
+  background-color: #161a1e;
+  color: #fbfbfb;
+}
+
+.modal-button {
+  background-color: #9a9a9a;
+  color: #161a1e;
+}
+
+.modal-button:hover {
+  background-color: #bdbdbd;
+}
+
+/* DASHBOARD ADMIN */
+.card-button1 {
+  background-color: #e58e27;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  border-radius: 35px;
+  text-align: center;
+}
+
+.card-button1:hover {
+  background-color: #ffba67fa;
+  transition: 0.3s;
+  text-align: center;
+}

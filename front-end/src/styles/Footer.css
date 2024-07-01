@@ -1,0 +1,10 @@
+/* FOOTER */
+footer a {
+  color: #fbfbfb;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #e58e27;
+}
+/* FOOTER */

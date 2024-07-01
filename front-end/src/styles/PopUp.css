@@ -1,0 +1,11 @@
+.textPopup {
+  color: rgb(0, 255, 21);
+  margin: 0;
+  font-weight: 600;
+}
+
+.successPopup {
+  background-color: rgba(90, 249, 90, 0.192);
+  border-radius: 35px;
+  padding-block: 1%;
+}

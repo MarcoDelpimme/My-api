@@ -1,0 +1,188 @@
+/* HOME */
+/*carousel/slider*/
+.page.carousel-1-page {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 0 8vw;
+  color: #f9f9f9;
+}
+
+.explore {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff !important;
+  font-weight: 500;
+  background: #e58e27;
+  border-radius: 3.125rem;
+  margin: 0 auto;
+  padding: 10px 26px;
+  font-size: 0.9rem;
+  transition: 0.3s ease-in-out;
+}
+
+#swiperHome {
+  width: 100%;
+  max-width: 800px;
+  height: 440px;
+}
+
+#swiperHomeSlide {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.swiper-slide h2 {
+  color: #fff;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 0.625rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.swiper-slide a:hover {
+  color: #005baa;
+}
+
+.swiper-slide div {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  background: linear-gradient(rgb(0 0 0 / 0%) 55%, rgb(0 0 0 / 80%));
+  transition: 0.25s;
+  opacity: 0;
+  align-self: stretch;
+  padding-bottom: 70px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.swiper-slide-active div {
+  opacity: 1;
+}
+
+.swiper-slide > div > div {
+  translate: 0 100px;
+  transition: 0.3s;
+}
+
+.swiper-slide-active > div > div {
+  translate: 0;
+}
+
+.swiper-pagination-bullet,
+.swiper-pagination-bullet-active {
+  background: #fff !important;
+}
+
+.swiper-pagination {
+  bottom: 10px !important;
+  transform: scale(1.3);
+}
+
+/*carousel/slider*/
+
+.title-home-container {
+  color: #fbfbfb;
+  text-align: center;
+  border: solid 2px #e58e27;
+  padding: 30px;
+  background-color: #161a1e;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 50px;
+}
+
+.title-home-container h1 {
+  margin: 0;
+  font-family: "Arial Black", sans-serif;
+  font-size: 2.5rem;
+}
+
+.title-home-container span {
+  color: #e58e27;
+  font-family: "Courier New", monospace;
+}
+
+.myhomecard {
+  background-color: #1e2328;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.myhomecard:hover {
+  transform: scale(1.05);
+}
+
+.myhomecard img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-buttonhome {
+  background-color: #e58e27;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #161a1e;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.card-buttonhome:hover {
+  background-color: #c3741f;
+}
+
+.explore {
+  background-color: #e58e27;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px;
+  border-radius: 35px;
+  width: 60%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.explore:hover {
+  background-color: #ffba67fa;
+  transition: 0.3s;
+}
+
+.news {
+  background-color: #1e2328;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2,
+h3 {
+  color: #e58e27;
+}
+
+p {
+  color: #9a9a9a;
+}
+
+/*_____________________________*/
+
+/*_____________________________*/

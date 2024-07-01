@@ -1,0 +1,47 @@
+.myeditgameform {
+  h1 {
+    color: rgb(221, 221, 221);
+    font-weight: bold;
+  }
+  color: #9a9a9a;
+  background: rgb(37, 37, 40);
+  background: linear-gradient(34deg, rgba(37, 37, 40, 1) 12%, rgba(54, 45, 37, 1) 74%);
+  padding: 50px;
+  border-radius: 25px;
+
+  input {
+    background-color: #0000006b;
+    border: none;
+    color: white;
+    border-radius: 10px;
+  }
+
+  textarea {
+    background-color: #0000006b;
+    border: none;
+    color: white;
+    border-radius: 10px;
+  }
+  select {
+    background-color: #0000006b;
+    border: none;
+    color: white;
+    border-radius: 10px;
+  }
+}
+
+.myeditgameform .form-control:focus {
+  color: white;
+  background-color: #494949;
+  border-color: #ffa938;
+  outline: none;
+  box-shadow: 0 0 0 0.25rem rgba(253, 189, 13, 0.25);
+}
+
+.myeditgameform .form-select:focus {
+  color: white;
+  background-color: #313131;
+  border-color: #ffa938;
+  outline: none;
+  box-shadow: 0 0 0 0.25rem rgba(253, 189, 13, 0.25);
+}

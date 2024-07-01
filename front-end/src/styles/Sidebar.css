@@ -1,0 +1,51 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -250px; /* Sidebar chiusa di default */
+  width: 250px;
+  height: 100%;
+  background-color: #161a1e;
+  transition: all 0.3s ease-in-out;
+}
+
+.sidebar.open {
+  left: 0; /* Sidebar aperta */
+}
+
+.sidebar-toggle {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  font-size: 24px;
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.sidebar .nav-link {
+  color: #ffffff !important;
+  padding: 10px 20px;
+}
+
+.sidebar .nav-link:hover {
+  background-color: #e58e27;
+  color: #ffffff !important;
+}
+
+.cart-badge {
+  position: absolute;
+  top: 12px;
+  right: 40px;
+  background-color: #e74c3c;
+  color: #ffffff;
+  padding: 4px 8px;
+  border-radius: 50%;
+  font-size: 12px;
+}
+
+@media (min-width: 992px) {
+  .sidebar {
+    display: none; /* Nasconde la sidebar sui dispositivi più grandi */
+  }
+}

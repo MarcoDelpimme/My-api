@@ -1,0 +1,108 @@
+/* SIDEBAR */
+.sidebar {
+  background: rgb(37, 37, 40);
+  background: linear-gradient(34deg, rgba(37, 37, 40, 1) 12%, rgba(54, 45, 37, 1) 74%);
+  padding: 2rem;
+  color: #9a9a9a;
+  border-radius: 35px;
+}
+
+.sidebar h4 {
+  color: white;
+}
+
+.social-icons {
+  font-size: 30px;
+  color: grey;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.category-button {
+  display: block;
+  width: 100%;
+  background-color: #55555500;
+  color: #9a9a9a;
+  border: none;
+  padding: 10px;
+  margin-bottom: 0.5rem;
+  text-align: left;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.category-button:hover {
+  background-color: #e58f276b;
+  transition: 0.3s;
+  color: white;
+}
+
+.category-button.active {
+  background-color: #e58e27;
+  color: white;
+}
+
+/* FILTER PRICE */
+.input-price {
+  padding: 15px;
+  width: 100%;
+  background-color: #2f2f32;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+
+.input-price:focus {
+  outline: 2px solid #e58e27;
+  color: #ffeeda;
+}
+
+/* MAIN */
+.mycard {
+  border-radius: 15px !important;
+  background-color: #2f2f32 !important;
+  color: white !important;
+}
+
+.mycard img {
+  border-radius: 10px !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.card-button {
+  background-color: #e58e27;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px;
+  border-radius: 35px;
+  width: 60%;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.card-button:hover {
+  background-color: #ffba67fa;
+  transition: 0.3s;
+}
+
+/* CARD HOVER EFFECT */
+.card.mycard {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  height: 100%;
+}
+
+.card.mycard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.cardHeight {
+  max-height: 430px;
+  height: 430px;
+}
